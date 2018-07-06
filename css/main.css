@@ -1,0 +1,90 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.flex-container {
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    background: #0198f1;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btwExcl {
+    margin-bottom: 10px;
+}
+
+input[type="number"]:focus,
+input[type="result"]:focus {
+    background: #D2D9DD;
+}
+
+#button {
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    background-color: #0198f1;
+    border: 1px solid #0198f1;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+input[type="button"]:hover {
+    background-color: #0181cb;
+
+}
+
+input[type="number"],
+input[type="result"]
+ {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+/
